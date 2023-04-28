@@ -1,0 +1,254 @@
+
+
+body {
+
+  background-color: rgb(9, 8, 8);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#mainimg{
+  color: white;
+  text-align: center;
+  /* vertical-align: middle; */
+  text-transform: uppercase;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-image: url("gymimg/fav1.jpg");
+}
+#content{
+  text-shadow: 4px 3px 6px rgb(250, 8, 8);
+  font-weight: bold;
+  font-size: 80px;
+  padding-top: 130px;
+}
+#mainbutton:hover{
+  transition: 1s;
+  color: white;
+background: rgba(247, 2, 2, 0.662);
+
+}
+.nav a.active{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+border-bottom:none ;
+border-top: 1px solid red;
+/* background-color: wheat; */
+  color: red;
+  /* border-radius: 5px; */
+
+  /* border-bottom: 2px solid  #3498db; */
+}
+
+#mainbutton{
+  /* background-color: red; */
+  border: 3px solid rgba(136, 7, 7, 0.461);
+background: rgba(10, 0, 0, 0.378);
+
+
+ /* background-color: rgb(34, 31, 31); */
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(12.6px);
+-webkit-backdrop-filter: blur(12px);
+  color: rgba(252, 8, 8, 0.728);
+  font-weight: bolder;
+  /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+
+  padding: 8px 38px 8px 38px;
+  font-size: 36px;
+  border-radius: 10px;
+/* border: 3px solid red; */
+  /* box-shadow: 10px 10px 100px rgb(250, 8, 8); */
+  /* background-color: red; */
+  text-transform: uppercase;
+}
+#logo{
+
+  text-shadow: 4px 3px 6px rgb(250, 8, 8);
+
+  /* border-bottom: 2px red solid; */
+  color: white;
+  font-weight: bold;
+}
+#linkmain{
+  text-shadow: 4px 3px 6px rgb(250, 8, 8);
+
+  text-transform: uppercase;
+  color: white;
+}
+
+
+.animated{
+  animation: up-down 3s ease-in-out infinite alternate-reverse both ;
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+
+
+.nav{
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  color: red;
+  background-color: black;
+  overflow-x: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-link:hover{
+  transition: 1s;
+  /* border-top: 2px red solid; */
+  color: red;
+}
+.nav-link{
+  color: white;
+  letter-spacing: 2px;
+font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* flex-grow: 1; */
+  min-width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 6px;
+}
+.name{
+  font-size: 12px;
+}
+ 
+ 
+@media (max-width:550px) {
+  #mainimg {
+
+    
+  color: white;
+  text-align: center;
+  /* vertical-align: middle; */
+  text-transform: uppercase;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-image: url("gymimg/fav1m.jpg");
+  }
+
+
+  #content{
+    text-shadow: 4px 3px 6px rgb(250, 8, 8);
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 180px;
+  }
+}
+
+@media (max-width:372px) {
+  
+  #content{
+    text-shadow: 4px 3px 6px rgb(250, 8, 8);
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 170px;
+  }
+  .nav-link i{}
+  .nav-link{
+    color: white;
+    /* letter-spacing: 2px; */
+  /* font-weight: normal; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-grow: 1; */
+    /* min-width: 30px; */
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
+    /* font-size: 2px; */
+  }
+
+  .nav{
+    font-size: -20px;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    color: red;
+    background-color: black;
+    /* overflow-x: auto; */
+    display: flex;
+    justify-content: space-around;
+  }
+
+  }
+
+@media (max-width:500px) {
+  .name {
+  letter-spacing: 0px;
+
+      font-size: 10px;
+  }
+}
+#main{
+
+  border-bottom: 2px solid white;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+#memcard:hover{
+  cursor: pointer;
+  transition: 1s;
+  background: rgba(220, 3, 3, 0.498);
+}
+#memcard{
+  color: white;
+border: 2px solid rgba(247, 2, 2, 0.498);
+  /* From https://css.glass */
+background: rgba(47, 46, 46, 0.52);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.3px);
+-webkit-backdrop-filter: blur(10.3px);
+}
+#main:hover{
+  transition: 1s;
+  border-bottom:2px solid red ;
+}
+#membutton{
+  text-transform: uppercase;
+  /* From https://css.glass */
+background: rgba(247, 2, 2, 0.498);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(16.6px);
+-webkit-backdrop-filter: blur(16.6px);
+}
