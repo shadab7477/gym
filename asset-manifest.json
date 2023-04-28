@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/shadab7477/gym/static/css/main.6f958790.css",
+    "main.js": "/shadab7477/gym/static/js/main.173ee3a0.js",
+    "static/media/gif11.gif": "/shadab7477/gym/static/media/gif11.ff4c9f31f77d57d0e2ea.gif",
+    "static/media/fav1.jpg": "/shadab7477/gym/static/media/fav1.4b0a5c0d9509ed6412e8.jpg",
+    "static/media/gif8.gif": "/shadab7477/gym/static/media/gif8.23eaedac4d8c9c5c3a5e.gif",
+    "static/media/fav1m.jpg": "/shadab7477/gym/static/media/fav1m.7f75d274b734a829769c.jpg",
+    "static/media/gif10.gif": "/shadab7477/gym/static/media/gif10.c6208959c35227ca256d.gif",
+    "static/media/gif3.gif": "/shadab7477/gym/static/media/gif3.24d6933fcdae762effec.gif",
+    "static/media/gif2.gif": "/shadab7477/gym/static/media/gif2.efd4fe40f602abdbdb4b.gif",
+    "static/media/gif1.gif": "/shadab7477/gym/static/media/gif1.8df44a9c53ed8b1d6a49.gif",
+    "static/media/gif5.gif": "/shadab7477/gym/static/media/gif5.e85b8d66dd3cec0423ac.gif",
+    "static/media/gif.gif": "/shadab7477/gym/static/media/gif.da9877bdb19cd94429c8.gif",
+    "static/media/gif6.gif": "/shadab7477/gym/static/media/gif6.e09832b346298fd25a60.gif",
+    "static/media/gif4.gif": "/shadab7477/gym/static/media/gif4.9ec81eca2fa1a2533002.gif",
+    "static/media/gif7.gif": "/shadab7477/gym/static/media/gif7.19f632c4d7c3509c4dc0.gif",
+    "static/media/gif9.gif": "/shadab7477/gym/static/media/gif9.41583157eb89738fede8.gif",
+    "index.html": "/shadab7477/gym/index.html",
+    "main.6f958790.css.map": "/shadab7477/gym/static/css/main.6f958790.css.map",
+    "main.173ee3a0.js.map": "/shadab7477/gym/static/js/main.173ee3a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f958790.css",
+    "static/js/main.173ee3a0.js"
+  ]
+}
